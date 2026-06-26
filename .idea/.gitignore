@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments (Môi trường ảo nếu bạn có tạo sau này)
+.venv/
+venv/
+ENV/
+env/
+
+# PyCharm / JetBrains IDE config files
+.idea/
+*.iml
+
+# Data & Models (Các file dữ liệu nặng và file model ML không nên push lên Git)
+*.csv
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
